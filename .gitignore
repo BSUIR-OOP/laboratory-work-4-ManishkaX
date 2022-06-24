@@ -2,3 +2,10 @@
 bin/*
 obj/*
 .DS_Store
+DependencyLibrary/bin/*
+DependencyLibrary/obj/*
+DependencyLibrary/.idea/*
+DependencyLibrary/.DS_Store
+DepInj/bin/*
+DepInj/obj/*
+DepInj/.idea/*
