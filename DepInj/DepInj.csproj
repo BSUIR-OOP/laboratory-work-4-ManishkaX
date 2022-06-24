@@ -1,0 +1,112 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\DependencyLibrary.cs">
+        <Link>DependencyLibrary\DependencyLibrary\DependencyLibrary.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\Exceptions\CyclicException.cs">
+        <Link>DependencyLibrary\DependencyLibrary\Exceptions\CyclicException.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\Exceptions\RegisteredTypeException.cs">
+        <Link>DependencyLibrary\DependencyLibrary\Exceptions\RegisteredTypeException.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\Exceptions\UnregisteredTypeException.cs">
+        <Link>DependencyLibrary\DependencyLibrary\Exceptions\UnregisteredTypeException.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.AssemblyInfo.cs">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.AssemblyInfo.cs</Link>
+      </Compile>
+      <Compile Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.GlobalUsings.g.cs">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.GlobalUsings.g.cs</Link>
+      </Compile>
+      <Compile Remove="Exeptions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\.gitignore">
+        <Link>DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\.gitignore</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\encodings.xml">
+        <Link>DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\encodings.xml</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\indexLayout.xml">
+        <Link>DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\indexLayout.xml</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\projectSettingsUpdater.xml">
+        <Link>DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\projectSettingsUpdater.xml</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\workspace.xml">
+        <Link>DependencyLibrary\DependencyLibrary\.idea\.idea.DependencyLibrary\.idea\workspace.xml</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\DependencyLibrary.csproj">
+        <Link>DependencyLibrary\DependencyLibrary\DependencyLibrary.csproj</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\DependencyLibrary.sln">
+        <Link>DependencyLibrary\DependencyLibrary\DependencyLibrary.sln</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.AssemblyInfoInputs.cache">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.AssemblyInfoInputs.cache</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.assets.cache">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.assets.cache</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.csproj.AssemblyReference.cache">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.csproj.AssemblyReference.cache</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.GeneratedMSBuildEditorConfig.editorconfig">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\DependencyLibrary.GeneratedMSBuildEditorConfig.editorconfig</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.dgspec.json">
+        <Link>DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.dgspec.json</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.g.props">
+        <Link>DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.g.props</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.g.targets">
+        <Link>DependencyLibrary\DependencyLibrary\obj\DependencyLibrary.csproj.nuget.g.targets</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\project.assets.json">
+        <Link>DependencyLibrary\DependencyLibrary\obj\project.assets.json</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\project.nuget.cache">
+        <Link>DependencyLibrary\DependencyLibrary\obj\project.nuget.cache</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\project.packagespec.json">
+        <Link>DependencyLibrary\DependencyLibrary\obj\project.packagespec.json</Link>
+      </Content>
+      <Content Include="..\DependencyLibrary\DependencyLibrary\obj\rider.project.restore.info">
+        <Link>DependencyLibrary\DependencyLibrary\obj\rider.project.restore.info</Link>
+      </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="..\DependencyLibrary\DependencyLibrary\bin\Debug\net6.0">
+        <Link>DependencyLibrary\DependencyLibrary\bin\Debug\net6.0</Link>
+      </Folder>
+      <Folder Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\ref">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\ref</Link>
+      </Folder>
+      <Folder Include="..\DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\refint">
+        <Link>DependencyLibrary\DependencyLibrary\obj\Debug\net6.0\refint</Link>
+      </Folder>
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Exeptions\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Exeptions\**" />
+    </ItemGroup>
+
+</Project>
